@@ -1,0 +1,83 @@
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #333333;
+}
+
+.navbar .form-inline {
+    width: 100%;
+}
+
+.navbar .form-inline .form-control {
+    background-color: #444444;
+    border: 1px solid #555555;
+    color: #ffffff;
+}
+
+.navbar .form-inline .btn {
+    background-color: #444444;
+    border: 1px solid #555555;
+}
+
+.slider-container {
+    margin: 20px 0;
+}
+
+.slider-value {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.image-container,
+.search-results {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.image-container img,
+.search-results img {
+    max-width: 48%;
+    height: auto;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+    margin: 5px; /* Ensure there is some margin between images */
+}
+
+.search-result {
+    margin-top: 20px;
+}
+
+.modal-header {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.modal-body {
+    background-color: #000;
+}
+
+.modal-body img {
+    width: 100%;
+    height: auto;
+    max-height: 100vh;
+    object-fit: contain;
+    background-color: #000;
+}
+
+.modal-header .close span {
+    color: #ffffff; /* Make the close (X) button white */
+}
+
+button.back-button {
+    margin: 20px 0;
+    background-color: #444444;
+    border: 1px solid #555555;
+    color: #ffffff;
+    cursor: pointer;
+}
